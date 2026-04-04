@@ -1,0 +1,178 @@
+:: StoryTitle
+no warmth remain
+
+
+:: StoryData
+{
+  "ifid": "C5661B62-00DC-4469-AC3A-92CCA78B46E0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "dorm room",
+  "tag-colors": {
+    "dormroompicture": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: desk {"position":"500,275","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/refs/heads/main/images/desk.JPG" width="600">
+</div>
+
+
+I haven't been bothered to clean this since every day used to be hectic during the winter. 
+
+I couldn't even have a moment of rest to take care of my dorm.
+
+Now all I do is rest and I still don't have it in me to be tidy.
+
+There are definitely things that can be thrown into the garbage. But what do I do about this [[doll]]? 
+
+I can't think of a good reason to give it to her. 
+
+I don't want to throw it away, but I don't want to see it anymore.
+
+
+
+
+:: doll {"position":"500,425","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/refs/heads/main/images/doll.JPG" width="600">
+</div>
+
+I won this doll at the crane machine game at the basement of Homeplus. 
+
+It took me about four tries before I finally knocked it into the prize vendor.
+
+I want to give it to her to say sorry, but I don't even know how to muster the courage...
+
+All I want to do is lay in my [[dorm room]]. 
+
+(set: $visitedDoll to true)
+
+
+
+
+:: dorm room {"position":"775,325","size":"100,100"}
+
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/dorm%20room.JPG" width="600">
+</div>
+
+Just like any other morning these days, I wake up without an alarm.
+
+There isn't anything needing my urgency and I can wake at my own pace.
+
+I take a look at my phone with no notifications.
+
+It's like any other day.
+
+Everyone escapes Songdo by the time Saturday is around.
+
+I don't blame them, Songdo can feel like hell if you've been here too long.
+
+I take a gander around my unkempt room.
+
+The garbage still hasn't been taken out, my [[desk]] has been unorganized since the start of last winter break.
+
+I could do a reset and clean everything... but the weather is so nice today. If you take a peek outside the [[window]], you can see the cherry blossoms beginning to bloom.
+
+(if: $visitedDoll is true and $visitedWindow is true)[I heard the [[student lounge->first floor]] is quite empty on Saturdays.
+]
+
+
+
+
+:: first floor {"position":"775,500","size":"100,100"}
+Freshman orientation was terrifying.
+
+I couldn't help but think I wouldn't be able to make any friends or even just acquaintances.
+
+It seemed that people made small cliques immediately and spent time during the small breaks we had.
+
+The first floor is always a place of meeting and gathering, but I didn't feel that I belonged anywhere.
+
+Yoonseul was the first one to talk to me as I wandered aimlessly during Freshman orientation.
+
+She had asked me if I knew what was going, acting like she didn't know either.
+
+I think she felt bad for me, but it felt like a warm light at the time.
+
+Even now, I don't know why she chose me as someone to make a connection with.
+
+I didn't know how lucky I was at the time. And how foolish I am now.
+
+I was learning how to finally [[enjoy->student lounge]] time and feeling like I was wanted.
+
+
+:: student lounge {"position":"775,625","size":"100,100"}
+I almost never studied or really cared to.
+
+I didn't want to try so hard and academics were never serious to me.
+
+But if it gave a reason for me to meet with Yoonseul, of course I would take it.
+
+It felt so new to be around someone so bright at everything she does.
+
+We used to hog the foosball table and [[draw->whiteboard]] stupid things all the time. And of course, she won every game.
+
+When she would get really excited and happy, she'd always dance and sing some song she saw off of Instagram reels.
+
+It makes me wonder where she gets her energy from.
+
+
+
+:: whiteboard {"position":"775,750","size":"100,100"}
+Yoonseul wrote something one of these days on the white board after beating me in foosball. She was dancing and teased me for losing.
+
+It made me feel quite <span style="background-color:white; color:white;">████████████████████.</span>
+
+I think she wrote something along the lines of <span style="background-color:white; color:white;"> ████████████████████.</span>.
+
+(set: $code to "")
+
+I can't seem to remember.
+
+|inputArea>[
+(input: bind $code)
+
+(link: "Submit")[
+    (set: $code to (lowercase: $code))
+    
+    (if: $code is "404")[
+        (goto: "whiteboard reveal")
+    ]
+    (else:)[
+        (set: $code to "")
+        (replace: ?error)[
+            That doesn’t feel right…
+        ]
+        (rerun: ?inputArea)
+    ]
+]
+]
+
+|error>[]
+
+
+:: whiteboard reveal {"position":"775,900","size":"100,100"}
+I remember that she wrote I was "big cute idiot."
+
+
+:: window {"position":"975,225","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/refs/heads/main/images/window.JPG" width="600">
+</div>
+
+The sky is clear and the sun glows brightly. For a place like Songdo, the day feels light and refreshing.
+
+The courtyard and in front of the cafeteria is usually bustling with students during the weekday. 
+
+I live on the lowest floor possible in the B dorm, the 4th floor, and I can hear the screams, the laughs, and the footsteps.
+
+The complaints of having to go to class and the nights where people come back from Triple Street having a little bit too much to drink.
+
+Nowadays, people like taking pictures together at the big cherry blossom trees beside the dorm buildings.
+
+It's days like these where I wish I can go back and laugh with them too.
+
+These days I'm sitting in my [[dorm room]] waiting for nothing.
+
+(set: $visitedWindow to true)
