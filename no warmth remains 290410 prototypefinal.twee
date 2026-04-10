@@ -1,0 +1,535 @@
+:: StoryTitle
+no warmth remains
+
+
+:: StoryData
+{
+  "ifid": "C5661B62-00DC-4469-AC3A-92CCA78B46E0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "dorm room",
+  "tag-colors": {
+    "dormroompicture": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: Gamesmith's Guild {"position":"950,1050","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/gamessmithguild1edited.jpg" width="600">
+</div>
+
+The club assigned us a group just by common interests, all the people that were involved wanted to make a narrative story role-playing game using a fairly simple game engine.
+
+When asked who would be the project lead, I uncharacteristically volunteered to take head of the project.
+
+People who I've never spoken to before and who probably have way more experience in game development had to accept that I was the one in charge.
+
+I didn't understand the [[weight->game progress]] of everything until we actually made progress.
+
+
+:: balcony {"position":"775,1800","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/balconyedited.jpg" width="600">
+</div>
+
+
+I never told Yoonseul that I smoked. But my vice was the only way I can feel a bit of 
+
+something
+
+if I didn't have her around.
+
+I didn't expect her to come around to the 7th floor since the ████████████████████ was only [[right above->zine room]].
+
+The look of disappointment killed me.
+
+(text-colour:red)[guilt]
+
+(text-colour:red)[shame]
+
+(text-colour:red)[resentment]
+
+My ego took over and I told her she had no right to be [[disappointed->balcony2]].
+
+(text-colour:red)[She could never experience what its like to be alienated the way I did.]
+
+Everyone loved her. Everyone wanted her around.
+
+Students, professors, faculty, even the workers at ████████████████████ know her name.
+
+(text-colour:red)[Everything was given to her on a silver platter.]
+
+████████████████████
+
+████████████████████
+████████████████████
+████████████████████
+
+████████████████████
+████████████████████
+
+I'll never forget her face
+████████████████████
+when I spit [[poison->puzzle3]] at her for the first time.
+
+
+
+
+
+
+:: balcony2 {"position":"550,1800","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/balconycensored.jpg" width="600">
+</div>
+
+
+(text-colour:cyan)[''G''etting to this point wasn't something I wanted, but here we are.
+
+//O//ne day, I realised I was more exhausted than hopeful, and that scared me.
+
+~~N~~othing I say seems to reach you, and I don't know how much longer I can keep reaching.
+  
+^^E^^verything I had to give is (text-colour:red)[[[running out->balcony]]], Miro. I need you to hear that.
+
+From Yoonseul]
+
+
+
+:: connectfour {"position":"950,625","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/connectfourcensored.jpg" width="600">
+</div>
+
+Even for a game as simple as <span style="background-color:white; color:white;">████████████████████.</span>, I couldn't win at it.
+
+Teasingly, 
+
+She would always say that I'm
+
+(align:"=><=")+(box:"X=")[(text-colour:red)[useless]]
+(align:"=><=")+(box:"X=")[(text-colour:red)[selfish]]
+(align:"=><=")+(box:"X=")[████████████████████]
+(align:"=><=")+(box:"X=")[(text-colour:red)[difficult]]
+(align:"=><=")+(box:"X=")[(text-colour:red)[i can't do anything right]]
+(align:"=><=")+(box:"X=")[████████████████████]
+(align:"=><=")+(box:"X=")[(text-colour:red)[i don't want to go [(text-colour:blue)[[there->student lounge]]]]]
+
+stupid.
+
+
+:: desk {"position":"500,275","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/refs/heads/main/images/deskedited.jpg" width="600">
+</div>
+
+
+I haven't been bothered to clean this since every day used to be hectic during the winter. 
+
+I couldn't even have a moment of rest to take care of my dorm.
+
+Now all I do is rest and I still don't have it in me to be tidy.
+
+There are definitely things that can be thrown into the garbage. But what do I do about this [[doll]]? 
+
+I can't think of a good reason to give it to her. 
+
+I don't want to throw it away, but I don't want to see it anymore.
+
+
+:: doll {"position":"500,425","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/refs/heads/main/images/dolledited.jpg" width="600">
+</div>
+
+I won this doll at the crane machine game at the basement of Homeplus. 
+
+It took me about four tries before I finally knocked it into the prize vendor.
+
+I want to give it to her to say sorry, but I don't even know how to muster the courage...
+
+All I want to do is lay in my [[dorm room]]. 
+
+(set: $visitedDoll to true)
+
+
+:: dorm room {"position":"775,325","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/dormroomedited.jpg" width="600">
+</div>
+
+Just like any other morning these days, I wake up without an alarm.
+
+There isn't anything needing my urgency and I can wake at my own pace.
+
+I take a look at my phone with no notifications.
+
+It's like any other day.
+
+Everyone escapes Songdo by the time Saturday is around.
+
+I don't blame them, Songdo can feel like hell if you've been here too long.
+
+I take a gander around my unkempt room.
+
+The garbage still hasn't been taken out, my [[desk]] has been unorganized since the start of last winter break.
+
+I could do a reset and clean everything... but the weather is so nice today. If you take a peek outside the [[window]], you can see the cherry blossoms beginning to bloom.
+
+(if: $visitedDoll is true and $visitedWindow is true)[I heard the [[student lounge->first floor]] is quite empty on Saturdays.
+]
+
+
+:: ending {"position":"775,2125","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/ending1censored.jpg" width="600">
+</div>
+
+i ████████████████████think
+
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/ending1censored2.jpg" width="600">
+</div>
+
+im starting ████████████████████ to forget
+
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/ending1censored3.jpg" width="600">
+</div>
+
+what your warmth ████████████████████ felt like
+
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/ending1censored4.jpg" width="600">
+</div>
+
+its not████████████████████ here anymore
+
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/ending1holdinghandsedited.jpg" width="600">
+</div>
+
+ i want to  ████████████████████remember so badly but
+ ████████████████████
+ so i'll [[close my eyes->dorm room]] and hope ████████████████████ you can ████████████████████
+ 
+  ████████████████████
+  
+   ████████████████████
+   
+    ████████████████████
+     ████████████████████
+      ████████████████████
+
+
+:: first floor {"position":"775,500","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/firstflooredited.jpg" width="600">
+</div>
+
+Freshman orientation was terrifying.
+
+I couldn't help but think I wouldn't be able to make any friends or even just acquaintances.
+
+It seemed that people made small cliques immediately and spent time during the small breaks we had.
+
+The first floor is always a place of meeting and gathering, but I didn't feel that I belonged anywhere.
+
+Yoonseul was the first one to talk to me as I wandered aimlessly during Freshman orientation.
+
+She had asked me if I knew what was going, acting like she didn't know either.
+
+I think she felt bad for me, but it felt like a warm light at the time.
+
+Even now, I don't know why she chose me as someone to make a connection with.
+
+I didn't know how lucky I was at the time. And how foolish I am now.
+
+I was learning how to finally [[enjoy->student lounge]] time and feeling like I was wanted.
+
+
+:: game progress {"position":"1100,1150","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/gamessmithguild2edited.jpg" width="600">
+</div>
+
+Only over the course of a couple months, I was exposed of my inadequacies.
+
+Miscommunications in the process, not speaking up, getting behind on deadlines; worst of all the people who I've been working with quietly went silent after the conflicts settled.
+
+████████████████████ was the first one to lose hope. After several exchanges on Discord and never finding a compromise, he eventually stopped showing up without even saying a word to me.
+
+I think the others knew what was going on since no one questioned his absence.
+
+(text-colour:red)[I knew no one was going to start thinking about where I was. The only difference with ████████████████████  is that everyone else thought the same with him as well.]
+
+What was I thinking? Suddenly taking charge of something in my life and thinking that I could make something great. A source of something I could control. I was naive to think [[otherwise->game progress 2]].
+
+
+:: game progress 2 {"position":"950,1300","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/yoonseulgamesloungeedited.jpg" width="600">
+</div>
+
+Yoonseul tried to support me to the best of her ability, but what more can she do other than she says that she's sorry that I'm having a hard time.
+
+(text-colour:red)[I'm absolutely pathetic.]
+
+When I didn't want to think about the mess I made, I slacked off with her in the games lounge with the slightest tinge of guilt that I didn't have any of my shit together.
+
+It was like a sloth hanging out with it's extraordinary caretaker, playing as if it were a zoo across the aesthetically fitting [[glassroom]].
+
+
+:: games lab {"position":"775,1175","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/gameslabedited.jpg" width="600">
+</div>
+
+Is it possible for somewhere to be crowded but feel lonely at the same time?
+
+People freely come in and out to work on their games, do their assignments, some don't even leave until it's open again.
+
+Coming in here with them felt like being shipwrecked on an island.
+
+But honestly, no one even sat [[together->games lab puzzle]] when we worked.
+
+What did we even work ████████████████████
+████████████████████
+████████████████████
+████████████████████
+████████████████████
+
+
+:: games lab puzzle {"position":"775,1350","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/gameslabseatingchartcensored.jpg" width="600">
+</div>
+
+(text-colour:red)[i've 
+
+always thought
+
+that i was never
+
+wanted]
+
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/gameslabseatcodeedited.jpg" width="600">
+</div>
+
+(text-colour:red)[is it wrong to want
+
+to belong?]
+
+|inputArea>[
+(input: bind $code)
+
+(link: "Submit")[
+    (set: $code to (lowercase: $code))
+    
+    (if: $code is "care")[
+        (goto: "games lab reveal")
+    ]
+    (else:)[
+        (set: $code to "")
+        (replace: ?error)[
+            That doesn’t feel right…
+        ]
+        (rerun: ?inputArea)
+    ]
+]
+]
+
+|error>[]
+
+
+(text-colour:red)[i just wish
+
+i wanted to be (text-colour:blue)[[needed->games lab]]]
+
+
+:: games lab reveal {"position":"775,1500","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/paperprototypeedited.jpg" width="600">
+</div>
+
+I made the mess myself and was trying to clean it too. 
+
+If (text-colour:red)["pitiful"] had a visual example in the dictionary, then what I was trying to piece together what was left of amalgamation of digital and paper slop would show up.
+
+My pyrite pedastal eventually crumbled, as the people who were lifting it suddenly let go.
+
+If it wasn't pathetic enough, I was also [[shooting myself->zine room]] in the foot from the only thing I can hold onto.
+
+
+:: glassroom {"position":"775,1050","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/glassroomedited.jpg" width="600">
+</div>
+
+[[Yoonseul->whiteboard reveal]] was part of the student council, was a math tutor, and even was a teaching assistant for the art professor.
+
+She asked me if I did anything on campus and I couldn't really answer her.
+
+Nothing, I just hang out with you, I would say.
+
+I think it took her back abit, an aimless and lost boy that follows her around like a dog.
+
+I took it upon my self to join something where I could make something and prove myself as someone who had actual ambition.
+
+Surprisingly, I had no problem joining the [[Gamesmith's Guild]] at UAC.
+
+After that, the [[games lab]] was like my second home.
+
+
+:: puzzle3 {"position":"775,1950","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/spotifyplaylistcover.jpg" width="600">
+</div>
+
+i dont know why im this way
+
+you were and are still my light
+
+it feels so [[cold->balcony]] without you
+
+if i have you around then maybe i can  ████████████████████ 
+
+|inputArea>[
+(input: bind $code)
+
+(link: "Submit")[
+    (set: $code to (lowercase: $code))
+    
+    (if: $code is "stay warm")[
+        (goto: "ending")
+    ]
+    (else:)[
+        (set: $code to "")
+        (replace: ?error)[
+            ...
+        ]
+        (rerun: ?inputArea)
+    ]
+]
+]
+
+|error>[]
+
+
+
+
+:: student lounge {"position":"775,625","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/studentloungeedited.jpg" width="600">
+</div>
+
+I almost never studied or really cared to.
+
+I didn't want to try so hard and academics were never serious to me.
+
+But if it gave a reason for me to meet with Yoonseul, of course I would take it.
+
+It felt so new to be around someone so bright at everything she does.
+
+We used to hog the [[board games->connectfour]] and [[draw->whiteboard]] stupid things all the time. And of course, she won every game.
+
+When she would get really excited and happy, she'd always dance and sing some song she saw off of Instagram reels.
+
+It makes me wonder where she gets her energy from.
+
+
+:: whiteboard {"position":"775,775","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/whiteboardcensored.jpg" width="600">
+</div>
+
+After loitering the [[student lounge]] a couple times,
+
+Yoonseul wrote something one of these days on the white board after beating me in ████████████████████. She was dancing and teased me for losing.
+
+It made me feel quite <span style="background-color:white; color:white;">████████████████████.</span>
+
+I think she wrote something along the lines of <span style="background-color:white; color:white;"> ████████████████████.</span>.
+
+(set: $code to "")
+
+I can't seem to remember. 
+
+|inputArea>[
+(input: bind $code)
+
+(link: "Submit")[
+    (set: $code to (lowercase: $code))
+    
+    (if: $code is "404")[
+        (goto: "whiteboard reveal")
+    ]
+    (else:)[
+        (set: $code to "")
+        (replace: ?error)[
+            That doesn’t feel right… What were those three numbers?
+        ]
+        (rerun: ?inputArea)
+    ]
+]
+]
+
+|error>[]
+
+
+:: whiteboard reveal {"position":"775,900","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/whiteboardedited.jpg" width="600">
+</div>
+
+"Big adorable idiot".
+
+I can certainly agree with the idiot part, I could never be as academically gifted as she could be but a part of me thought if I stuck with her then maybe I can be more smarter and more reliable. 
+
+But that was farther from the [[truth->glassroom]].
+
+
+:: window {"position":"975,225","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/refs/heads/main/images/windowedited.jpg" width="600">
+</div>
+
+The sky is clear and the sun glows brightly. For a place like Songdo, the day feels light and refreshing.
+
+The courtyard and in front of the cafeteria is usually bustling with students during the weekday. 
+
+I live on the lowest floor possible in the B dorm, the 4th floor, and I can hear the screams, the laughs, and the footsteps.
+
+The complaints of having to go to class and the nights where people come back from Triple Street having a little bit too much to drink.
+
+Nowadays, people like taking pictures together at the big cherry blossom trees beside the dorm buildings.
+
+It's days like these where I wish I can go back and laugh with them too.
+
+These days I'm sitting in my [[dorm room]] waiting for nothing.
+
+(set: $visitedWindow to true)
+
+
+:: zine room {"position":"775,1650","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/origamiedited.jpg" width="600">
+</div>
+
+The ████████████████████ was my burial site for my healthy standing with Yoonseul. 
+
+I had taken it upon myself to create a paper prototype for my own game design concept.
+
+I hadn't been doing a good job of communicating my thoughts with my team and I thought that this was the most appropriate way to make up for my negligence.
+
+I think deep down inside, I was trying to apologize for myself, but I don't think I could accept it.
+
+I wanted them to know they could rely on me.
+
+So, instead of showing up to the [[games lab->games lab reveal]], I wanted to keep it a secret and surprise them with my work. 
+
+The room was filled with all kinds of paper crafts: papers, stickers, magazines, decorative tape, colored pencils, etc
+
+Anyone can walk in any time and just make art in that room. It's a haven for others but a graveyard for me.
+
+And I know Yoonseul loves making [[origami->zine room 2]].
+
+I had called her to come up to the ████████████████████ so I can have some company while I sorted this out, but I had revealed my [[hiding spot->balcony]] at my own expense.
+
+
+:: zine room 2 {"position":"975,1750","size":"100,100"}
+<div style="text-align:center;"><img src="https://raw.githubusercontent.com/Dahee-Hong/twine-assets/main/images/zineroomcensored.jpg" width="600">
+</div>
+
+(text-colour:cyan)[Dear Miro,
+
+//C//arrying this by myself for so long has (text-colour:red)[[[worn->zine room]]] me down in ways I can't explain.
+
+~~O~~ver and over, I told myself it would get better, but I'm not so sure anymore.
+
+^^L^^ooking back, I wonder if I was the only one who was ever really trying.
+
+''D''o you even see how much of myself I've given just to keep us afloat?]
+
+
+
+:: StoryStylesheet [stylesheet]
+tw-sidebar {
+  visibility: hidden
+}
